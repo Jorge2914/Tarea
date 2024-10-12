@@ -15,8 +15,8 @@ var gameOver, restart;
 
 
 function preload(){
-  trex_running =   loadAnimation("trex1.png","trex3.png","trex4.png");
-  trex_collided = loadAnimation("trex_collided.png");
+  trex_running =   loadAnimation("bolt2.png","bolt2.png","bolt2.png");
+  trex_collided = loadAnimation("bolt2.png");
   
   groundImage = loadImage("ground2.png");
   
@@ -34,7 +34,7 @@ function preload(){
 }
 
 function setup() {
-  createCanvas(600, 200);
+  createCanvas(1400, 200);
   
   trex = createSprite(50,180,20,50);
   
